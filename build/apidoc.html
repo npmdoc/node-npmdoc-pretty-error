@@ -81,35 +81,8 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error.PrettyError">
-            function <span class="apidocSignatureSpan">pretty-error.</span>PrettyError
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error._filters.module.exports">
-            function <span class="apidocSignatureSpan">pretty-error.</span>_filters.module.exports
-            <span class="apidocSignatureSpan">(item)</span>
-            </a>
-
-        </li>
-
-        <li>
-
             <a class="apidocElementLiA" href="#apidoc.element.pretty-error._getDefaultStyle">
             function <span class="apidocSignatureSpan">pretty-error.</span>_getDefaultStyle
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error.defaultStyle">
-            function <span class="apidocSignatureSpan">pretty-error.</span>defaultStyle
             <span class="apidocSignatureSpan">()</span>
             </a>
 
@@ -128,15 +101,6 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.pretty-error.stop">
             function <span class="apidocSignatureSpan">pretty-error.</span>stop
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error.toString">
-            function <span class="apidocSignatureSpan">pretty-error.</span>toString
             <span class="apidocSignatureSpan">()</span>
             </a>
 
@@ -294,84 +258,6 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.pretty-error._filters.module.exports">module pretty-error._filters.module.exports</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error._filters.module.exports.exports">
-            function <span class="apidocSignatureSpan">pretty-error._filters.module.</span>exports
-            <span class="apidocSignatureSpan">(item)</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.pretty-error._getDefaultStyle">module pretty-error._getDefaultStyle</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error._getDefaultStyle._getDefaultStyle">
-            function <span class="apidocSignatureSpan">pretty-error.</span>_getDefaultStyle
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.pretty-error.defaultStyle">module pretty-error.defaultStyle</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error.defaultStyle.defaultStyle">
-            function <span class="apidocSignatureSpan">pretty-error.</span>defaultStyle
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.pretty-error.start">module pretty-error.start</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error.start.start">
-            function <span class="apidocSignatureSpan">pretty-error.</span>start
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.pretty-error.stop">module pretty-error.stop</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error.stop.stop">
-            function <span class="apidocSignatureSpan">pretty-error.</span>stop
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.pretty-error.toString">module pretty-error.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.pretty-error.toString.toString">
-            function <span class="apidocSignatureSpan">pretty-error.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
 </ol></div>
 
 <div class="apidocSectionDiv">
@@ -420,49 +306,6 @@
 
 
     <h2>
-        <a href="#apidoc.element.pretty-error.PrettyError" id="apidoc.element.pretty-error.PrettyError">
-        function <span class="apidocSignatureSpan">pretty-error.</span>PrettyError
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function PrettyError() {
-  this._useColors = true;
-  this._maxItems = 50;
-  this._packagesToSkip = [];
-  this._pathsToSkip = [];
-  this._skipCallbacks = [];
-  this._filterCallbacks = [];
-  this._parsedErrorFilters = [];
-  this._aliases = [];
-  this._renderer = new RenderKid;
-  this._style = self._getDefaultStyle();
-  this._renderer.style(this._style);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error._filters.module.exports" id="apidoc.element.pretty-error._filters.module.exports">
-        function <span class="apidocSignatureSpan">pretty-error.</span>_filters.module.exports
-        <span class="apidocSignatureSpan">(item)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">_filters.module.exports = function (item) {
-  if (item.what == null) {
-    return;
-  }
-  item.what = item.what.replace(/\.module\.exports\./g, &#x27; - &#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
         <a href="#apidoc.element.pretty-error._getDefaultStyle" id="apidoc.element.pretty-error._getDefaultStyle">
         function <span class="apidocSignatureSpan">pretty-error.</span>_getDefaultStyle
         <span class="apidocSignatureSpan">()</span>
@@ -471,81 +314,6 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">_getDefaultStyle = function () {
   return defaultStyle();
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error.defaultStyle" id="apidoc.element.pretty-error.defaultStyle">
-        function <span class="apidocSignatureSpan">pretty-error.</span>defaultStyle
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">defaultStyle = function () {
-  return {
-    &#x27;pretty-error&#x27;: {
-      display: &#x27;block&#x27;,
-      marginLeft: &#x27;2&#x27;
-    },
-    &#x27;pretty-error &#x3e; header&#x27;: {
-      display: &#x27;block&#x27;
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; title &#x3e; kind&#x27;: {
-      background: &#x27;red&#x27;,
-      color: &#x27;bright-white&#x27;
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; title &#x3e; wrapper&#x27;: {
-      marginRight: &#x27;1&#x27;,
-      color: &#x27;grey&#x27;
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; colon&#x27;: {
-      color: &#x27;grey&#x27;,
-      marginRight: 1
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; message&#x27;: {
-      color: &#x27;bright-white&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace&#x27;: {
-      display: &#x27;block&#x27;,
-      marginTop: 1
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item&#x27;: {
-      display: &#x27;block&#x27;,
-      marginBottom: 1,
-      marginLeft: 2,
-      bullet: &#x27;&#x22;&#x3c;grey&#x3e;-&#x3c;/grey&#x3e;&#x22;&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header&#x27;: {
-      display: &#x27;block&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; pointer &#x3e; file&#x27;: {
-      color: &#x27;bright-yellow&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; pointer &#x3e; colon&#x27;: {
-      color: &#x27;grey&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; pointer &#x3e; line&#x27;: {
-      color: &#x27;bright-yellow&#x27;,
-      marginRight: 1
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; what&#x27;: {
-      color: &#x27;white&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; footer&#x27;: {
-      display: &#x27;block&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; footer &#x3e; addr&#x27;: {
-      display: &#x27;block&#x27;,
-      color: &#x27;grey&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; footer &#x3e; extra&#x27;: {
-      display: &#x27;block&#x27;,
-      color: &#x27;grey&#x27;
-    }
-  };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -567,20 +335,14 @@
   return instance;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-   console.log(pe.render(error));
-}
-```
 
-But if you want pretty-error to render all errors, there is a shortcut for it:
 
-```javascript
-require(&#x27;pretty-error&#x27;).<span class="apidocCodeKeywordSpan">start</span>();
-```
 
-... which is essentially equal to:
 
-```javascript
-var PrettyError = require(&#x27;pretty-error&#x27;);
+
+
+
+require(&#x27;./lib/PrettyError&#x27;).<span class="apidocCodeKeywordSpan">start</span>()
 ...</pre></li>
     </ul>
 
@@ -595,21 +357,6 @@ var PrettyError = require(&#x27;pretty-error&#x27;);
     <ul>
     <li>description and source-code<pre class="apidocCodePre">stop = function () {
   return instance != null ? instance.stop() : void 0;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error.toString" id="apidoc.element.pretty-error.toString">
-        function <span class="apidocSignatureSpan">pretty-error.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1094,206 +841,6 @@ return {
   }
   item.what = item.what.replace(/\.module\.exports\./g, &#x27; - &#x27;);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.pretty-error._filters.module.exports" id="apidoc.module.pretty-error._filters.module.exports">module pretty-error._filters.module.exports</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error._filters.module.exports.exports" id="apidoc.element.pretty-error._filters.module.exports.exports">
-        function <span class="apidocSignatureSpan">pretty-error._filters.module.</span>exports
-        <span class="apidocSignatureSpan">(item)</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">exports = function (item) {
-  if (item.what == null) {
-    return;
-  }
-  item.what = item.what.replace(/\.module\.exports\./g, &#x27; - &#x27;);
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.pretty-error._getDefaultStyle" id="apidoc.module.pretty-error._getDefaultStyle">module pretty-error._getDefaultStyle</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error._getDefaultStyle._getDefaultStyle" id="apidoc.element.pretty-error._getDefaultStyle._getDefaultStyle">
-        function <span class="apidocSignatureSpan">pretty-error.</span>_getDefaultStyle
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">_getDefaultStyle = function () {
-  return defaultStyle();
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.pretty-error.defaultStyle" id="apidoc.module.pretty-error.defaultStyle">module pretty-error.defaultStyle</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error.defaultStyle.defaultStyle" id="apidoc.element.pretty-error.defaultStyle.defaultStyle">
-        function <span class="apidocSignatureSpan">pretty-error.</span>defaultStyle
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">defaultStyle = function () {
-  return {
-    &#x27;pretty-error&#x27;: {
-      display: &#x27;block&#x27;,
-      marginLeft: &#x27;2&#x27;
-    },
-    &#x27;pretty-error &#x3e; header&#x27;: {
-      display: &#x27;block&#x27;
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; title &#x3e; kind&#x27;: {
-      background: &#x27;red&#x27;,
-      color: &#x27;bright-white&#x27;
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; title &#x3e; wrapper&#x27;: {
-      marginRight: &#x27;1&#x27;,
-      color: &#x27;grey&#x27;
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; colon&#x27;: {
-      color: &#x27;grey&#x27;,
-      marginRight: 1
-    },
-    &#x27;pretty-error &#x3e; header &#x3e; message&#x27;: {
-      color: &#x27;bright-white&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace&#x27;: {
-      display: &#x27;block&#x27;,
-      marginTop: 1
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item&#x27;: {
-      display: &#x27;block&#x27;,
-      marginBottom: 1,
-      marginLeft: 2,
-      bullet: &#x27;&#x22;&#x3c;grey&#x3e;-&#x3c;/grey&#x3e;&#x22;&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header&#x27;: {
-      display: &#x27;block&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; pointer &#x3e; file&#x27;: {
-      color: &#x27;bright-yellow&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; pointer &#x3e; colon&#x27;: {
-      color: &#x27;grey&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; pointer &#x3e; line&#x27;: {
-      color: &#x27;bright-yellow&#x27;,
-      marginRight: 1
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; header &#x3e; what&#x27;: {
-      color: &#x27;white&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; footer&#x27;: {
-      display: &#x27;block&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; footer &#x3e; addr&#x27;: {
-      display: &#x27;block&#x27;,
-      color: &#x27;grey&#x27;
-    },
-    &#x27;pretty-error &#x3e; trace &#x3e; item &#x3e; footer &#x3e; extra&#x27;: {
-      display: &#x27;block&#x27;,
-      color: &#x27;grey&#x27;
-    }
-  };
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.pretty-error.start" id="apidoc.module.pretty-error.start">module pretty-error.start</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error.start.start" id="apidoc.element.pretty-error.start.start">
-        function <span class="apidocSignatureSpan">pretty-error.</span>start
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">start = function () {
-  if (instance == null) {
-    instance = new self;
-    instance.start();
-  }
-  return instance;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-   console.log(pe.render(error));
-}
-```
-
-But if you want pretty-error to render all errors, there is a shortcut for it:
-
-```javascript
-require(&#x27;pretty-error&#x27;).<span class="apidocCodeKeywordSpan">start</span>();
-```
-
-... which is essentially equal to:
-
-```javascript
-var PrettyError = require(&#x27;pretty-error&#x27;);
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.pretty-error.stop" id="apidoc.module.pretty-error.stop">module pretty-error.stop</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error.stop.stop" id="apidoc.element.pretty-error.stop.stop">
-        function <span class="apidocSignatureSpan">pretty-error.</span>stop
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">stop = function () {
-  return instance != null ? instance.stop() : void 0;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.pretty-error.toString" id="apidoc.module.pretty-error.toString">module pretty-error.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.pretty-error.toString.toString" id="apidoc.element.pretty-error.toString.toString">
-        function <span class="apidocSignatureSpan">pretty-error.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
