@@ -1,4 +1,7 @@
-# api documentation for  [pretty-error (v2.1.0)](https://github.com/AriaMinaei/pretty-error#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pretty-error.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pretty-error) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pretty-error.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pretty-error)
+# npmdoc-pretty-error
+
+#### basic api documentation for  [pretty-error (v2.1.0)](https://github.com/AriaMinaei/pretty-error#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-pretty-error.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-pretty-error) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-pretty-error.svg)](https://travis-ci.org/npmdoc/node-npmdoc-pretty-error)
+
 #### See nodejs errors with less clutter
 
 [![NPM](https://nodei.co/npm/pretty-error.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pretty-error)
@@ -80,7 +83,8 @@
         "winwatch": "start/b npm run compile:watch & npm run test:watch"
     },
     "typings": "index.d.ts",
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
